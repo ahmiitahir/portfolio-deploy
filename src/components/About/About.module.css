@@ -1,0 +1,79 @@
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.a_left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.a_right {
+  flex: 1;
+  margin-right: 5%;
+}
+
+.a_card_bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #4bb147;
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.a_card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a_award_image {
+  width: 160px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.a_title {
+  font-weight: 400;
+}
+
+.a_sub {
+  margin: 20px 0px;
+}
+
+.a_desc {
+  font-weight: 300;
+}
+
+.a_award {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a_award_texts {
+  width: 70%;
+}
+
+.a_award_title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}

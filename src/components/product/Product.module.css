@@ -1,0 +1,34 @@
+.p {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(55, 55, 55);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.p_browser {
+  height: 40px;
+  background-color: rgb(81, 130, 86);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.p_circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 4px;
+  background-color: rgb(238, 232, 225);
+}
+
+.p_image {
+  width: 110%;
+  transition: all 10s ease;
+}
+
+.p:hover .p_image {
+  transform: translateY(-100%);
+}
