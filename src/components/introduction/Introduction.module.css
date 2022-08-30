@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   height: 100vh;
-  background-color: rgb(224, 232, 229);
+  /* background-color: rgb(224, 232, 229); */
 }
 
 .intro_left {

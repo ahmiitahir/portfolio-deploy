@@ -1,12 +1,16 @@
 import classes from "./Contact.module.css";
-import { useRef, useState } from "react";
+import { useRef, useState, useContext } from "react";
 import phoneIcon from "../../images/phone-call-icon.png";
 import email from "../../images/email.png";
 import address from "../../images/address.png";
 
 import emailjs from "@emailjs/browser";
+import { ThemeContext } from "../../store/mode-context";
 
 const Contact = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   const formRef = useRef();
   const [formSent, setFormSent] = useState(false);
 
@@ -43,15 +47,26 @@ const Contact = () => {
                 src={phoneIcon}
                 alt="phone icon"
                 className={classes.c_icon}
+                style={{ filter: !darkMode && "none" }}
               />
               +359 886 336 229
             </div>
             <div className={classes.c_info_item}>
-              <img src={email} alt="phone icon" className={classes.c_icon} />
+              <img
+                src={email}
+                alt="phone icon"
+                className={classes.c_icon}
+                style={{ filter: !darkMode && "none" }}
+              />
               g.malchev@live.com
             </div>
             <div className={classes.c_info_item}>
-              <img src={address} alt="phone icon" className={classes.c_icon} />
+              <img
+                src={address}
+                alt="phone icon"
+                className={classes.c_icon}
+                style={{ filter: !darkMode && "none" }}
+              />
               Varna, Emanuil Manolov 14
             </div>
           </div>
@@ -67,14 +82,26 @@ const Contact = () => {
             at nisi bibendum, a sollicitudin augue condimentum.
           </p>
           <form ref={formRef} onSubmit={submitHandler}>
-            <input type="text" placeholder="Name" name="user_name"></input>
             <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Name"
+              name="user_name"
+            ></input>
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
             ></input>
-            <input type="text" placeholder="Email" name="user_email"></input>
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Email"
+              name="user_email"
+            ></input>
             <textarea
+              style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
               placeholder="Enter Your Message"
               name="message"
