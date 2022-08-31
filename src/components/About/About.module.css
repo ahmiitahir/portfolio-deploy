@@ -77,3 +77,27 @@
   color: #555;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .a_left {
+    width: 100%;
+  }
+
+  .a_card {
+    height: 30vh;
+  }
+
+  .a_card_bg, .a_award {
+    display: none;
+  }
+
+  .a_right {
+    padding: 20px;
+  }
+}

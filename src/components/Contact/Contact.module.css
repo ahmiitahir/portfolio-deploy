@@ -81,3 +81,41 @@ button {
   border-radius: 0.3em;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .c_wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-top: 20px;
+  }
+
+  .c_title {
+    font-size: 30px;
+  }
+
+  .c_info_item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c_desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}
