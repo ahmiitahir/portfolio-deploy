@@ -39,3 +39,10 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .pl {
+    padding-top: 150px;
+  }
+
+}

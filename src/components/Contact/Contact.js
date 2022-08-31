@@ -67,7 +67,7 @@ const Contact = () => {
                 className={classes.c_icon}
                 style={{ filter: !darkMode && "none" }}
               />
-              Varna, Emanuil Manolov 14
+              Emanuil Manolov 14, 9000, Varna, Bulgaria
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const Contact = () => {
             ></input>
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
-              rows="5"
+              rows="12"
               placeholder="Enter Your Message"
               name="message"
             />

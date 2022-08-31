@@ -89,6 +89,10 @@
     width: 100%;
   }
 
+  .a_right {
+    margin: 0px 12px;
+  }
+
   .a_card {
     height: 30vh;
   }
