@@ -15,18 +15,14 @@
 
 .a_right {
   flex: 1;
-  margin-right: 5%;
+  
 }
 
 .a_card_bg {
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #4bb147;
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
-  overflow: hidden;
+  background-color: #333;
 }
 
 .a_card {
@@ -44,13 +40,13 @@
 }
 
 .a_award_image {
-  width: 160px;
-  height: 100%;
+  width: 120px;
+  height: 120px;
   border-radius: 20px;
 }
 
 .a_title {
-  font-weight: 400;
+ font-weight: 400;
 }
 
 .a_sub {

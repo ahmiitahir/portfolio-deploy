@@ -26,10 +26,7 @@ const About = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          remaining essentially unchanged.
         </p>
         <div className={classes.a_award}>
           <img src={Courses} alt="" className={classes.a_award_image}></img>
@@ -43,30 +40,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className={classes.a_award}>
-          <img src={Courses} alt="" className={classes.a_award_image}></img>
-          <div className={classes.a_award_texts}>
-            <h4 className={classes.a_award_title}>
-              I would love to get a job in Development
-            </h4>
-            <p className={classes.a_sub}>
-              I spent much hours trying to learn myself the complex things about
-              coding and i love it so far.
-            </p>
-          </div>
-        </div>
-        <div className={classes.a_award}>
-          <img src={Courses} alt="" className={classes.a_award_image}></img>
-          <div className={classes.a_award_texts}>
-            <h4 className={classes.a_award_title}>
-              Download My CV
-            </h4>
-            <p className={classes.a_sub}>
-              I spent much hours trying to learn myself the complex things about
-              coding and i love it so far.
-            </p>
-          </div>
-        </div>
+      
       </div>
     </div>
   );

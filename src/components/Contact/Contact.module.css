@@ -82,6 +82,16 @@ button {
   cursor: pointer;
 }
 
+.c_send_handler {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ text-align: center;
+ justify-content: flex-start;
+ gap: 20px
+
+}
+
 @media screen and (max-width: 480px) {
   .c_wrapper {
     flex-direction: column;
@@ -118,5 +128,5 @@ button {
 
   button {
     margin-top: 10px;
-  }
+}
 }

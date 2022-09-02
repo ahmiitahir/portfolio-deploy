@@ -3,6 +3,7 @@ import { useRef, useState, useContext } from "react";
 import phoneIcon from "../../images/phone-call-icon.png";
 import email from "../../images/email.png";
 import address from "../../images/address.png";
+import LoadingSpinner from "../UI/LoadingSpinner";
 
 import emailjs from "@emailjs/browser";
 import { ThemeContext } from "../../store/mode-context";
@@ -13,9 +14,16 @@ const Contact = () => {
 
   const formRef = useRef();
   const [formSent, setFormSent] = useState(false);
+  const [isLoading, setIsLoading] = useState(false)
+
+  const isLoadingHandler = () => {
+    setIsLoading(true)
+  }
 
   const submitHandler = (event) => {
     event.preventDefault();
+    
+    setIsLoading(true)
 
     emailjs
       .sendForm(
@@ -28,11 +36,14 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setFormSent(true);
+          setIsLoading(false);
+          event.target.reset()
         },
         (error) => {
           console.log(error.text);
         }
       );
+
   };
 
   return (
@@ -106,8 +117,13 @@ const Contact = () => {
               placeholder="Enter Your Message"
               name="message"
             />
-            <button>Submit</button>
+            <div className={classes.c_send_handler}>
+            <button onClick={isLoadingHandler}>Submit</button>
+            {isLoading &&  <LoadingSpinner/>}
             {formSent && "Thank you for sending your email"}
+            {isLoading && "Sending your email."}
+            </div>
+            
           </form>
         </div>
       </div>
