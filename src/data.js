@@ -1,8 +1,10 @@
+import calculator from "./images/calculator.png";
+
 export const products = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    link: "http://lama.dev",
+    img: calculator,
+    link: "https://react-calculator-alpha-khaki.vercel.app/",
   },
   {
     id: 2,
