@@ -14,16 +14,16 @@ const Contact = () => {
 
   const formRef = useRef();
   const [formSent, setFormSent] = useState(false);
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false);
 
   const isLoadingHandler = () => {
-    setIsLoading(true)
-  }
+    setIsLoading(true);
+  };
 
   const submitHandler = (event) => {
     event.preventDefault();
-    
-    setIsLoading(true)
+
+    setIsLoading(true);
 
     emailjs
       .sendForm(
@@ -37,13 +37,12 @@ const Contact = () => {
           console.log(result.text);
           setFormSent(true);
           setIsLoading(false);
-          event.target.reset()
+          event.target.reset();
         },
         (error) => {
           console.log(error.text);
         }
       );
-
   };
 
   return (
@@ -94,36 +93,47 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={submitHandler}>
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
               type="text"
               placeholder="Name"
               name="user_name"
             ></input>
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
               type="text"
               placeholder="Subject"
               name="user_subject"
             ></input>
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
               type="text"
               placeholder="Email"
               name="user_email"
             ></input>
             <textarea
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
               rows="12"
               placeholder="Enter Your Message"
               name="message"
             />
             <div className={classes.c_send_handler}>
-            <button onClick={isLoadingHandler}>Submit</button>
-            {isLoading &&  <LoadingSpinner/>}
-            {formSent && "Thank you for sending your email"}
-            {isLoading && "Sending your email."}
+              <button onClick={isLoadingHandler}>Submit</button>
+              {isLoading && <LoadingSpinner />}
+              {formSent && "Thank you for sending your email"}
+              {isLoading && "Sending your email."}
             </div>
-            
           </form>
         </div>
       </div>
