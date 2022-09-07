@@ -6,11 +6,13 @@ export const products = [
     id: 1,
     img: calculator,
     link: "https://react-calculator-alpha-khaki.vercel.app/",
+    desc: "React Calculator",
   },
   {
     id: 2,
     img: weatherApp,
     link: "https://simple-weather-app-with-6dlbwlbdw-zulaxy.vercel.app/",
+    desc: "Weather App",
   },
   {
     id: 3,

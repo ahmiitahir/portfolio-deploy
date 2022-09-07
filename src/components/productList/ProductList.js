@@ -16,7 +16,7 @@ const ProductList = () => {
       </div>
       <div className={classes.pl_list}>
         {products.map((item) => {
-          return <Product key={item.id} img={item.img} link={item.link} />;
+          return <Product key={item.id} img={item.img} link={item.link} desc={item.desc}/>;
         })}
       </div>
     </div>

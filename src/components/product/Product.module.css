@@ -24,8 +24,15 @@
   background-color: rgb(238, 232, 225);
 }
 
+.p_desc {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
 .p_image {
-  width: 110%;
+  width: 100%;
   transition: all 10s ease;
 }
 
@@ -37,5 +44,9 @@
   .p {
     width: 40%;
     height: 20vh;
+  }
+
+  .p_desc {
+    display: none;
   }
 }
