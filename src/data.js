@@ -1,4 +1,5 @@
 import calculator from "./images/calculator.png";
+import weatherApp from "./images/weather-app.png";
 
 export const products = [
   {
@@ -8,8 +9,8 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/11257906/pexels-photo-11257906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    link: "http://lama.dev",
+    img: weatherApp,
+    link: "https://simple-weather-app-with-6dlbwlbdw-zulaxy.vercel.app/",
   },
   {
     id: 3,

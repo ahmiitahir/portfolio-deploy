@@ -14,7 +14,6 @@
 .intro_right {
   flex: 1;
   position: relative;
-
 }
 
 .intro_intro {
@@ -116,6 +115,4 @@
   .intro_description {
     display: none;
   }
-
-  
 }
