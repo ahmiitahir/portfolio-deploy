@@ -19,6 +19,7 @@ export const products = [
     id: 3,
     img: toursApp,
     link: "https://tours-app-one.vercel.app/",
+    desc: "Tours App API",
   },
   {
     id: 4,
