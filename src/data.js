@@ -1,6 +1,7 @@
 import calculator from "./images/calculator.png";
 import weatherApp from "./images/weather-app.png";
 import toursApp from "./images/tours-app.png";
+import muiDemo from "./images/mui-demo.png";
 
 export const products = [
   {
@@ -23,8 +24,9 @@ export const products = [
   },
   {
     id: 4,
-    img: "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    link: "http://lama.dev",
+    img: muiDemo,
+    link: "https://mui-demo-app.vercel.app/",
+    desc: "MUI Demo App",
   },
   {
     id: 5,
