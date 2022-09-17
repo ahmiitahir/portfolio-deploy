@@ -11,10 +11,12 @@ const Introduction = () => {
           <div className={classes.title_title}>
             <div className={classes.title_wrapper}>
               <div className={classes.title_item}>Web Developer Wanna-be</div>
-              <div className={classes.title_item}>Local SEO Expert</div>
-              <div className={classes.title_item}>Photoshop Enthusiast</div>
-              <div className={classes.title_item}>Top G</div>
-              <div className={classes.title_item}>Mr Outlaw</div>
+              <div className={classes.title_item}>
+              Local SEO Expert
+              </div>
+              <div className={classes.title_item}>Marketing Enthusiast</div>
+              <div className={classes.title_item}>Technology Geek</div>
+              <div className={classes.title_item}>Jack of All Trades</div>
             </div>
           </div>
           <p className={classes.intro_description}>
