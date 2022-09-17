@@ -31,7 +31,8 @@ export const products = [
   {
     id: 5,
     img: "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    link: "http://lama.dev",
+    link: "https://react-router-demo-qu1gxl20g-zulaxy.vercel.app/quotes",
+    desc: "Router with MUI",
   },
   {
     id: 6,
