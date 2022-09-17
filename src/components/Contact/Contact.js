@@ -2,7 +2,7 @@ import classes from "./Contact.module.css";
 import { useRef, useState, useContext } from "react";
 import phoneIcon from "../../images/phone-call-icon.png";
 import email from "../../images/email.png";
-import address from "../../images/address.png";
+import github from "../../images/github.png";
 import LoadingSpinner from "../UI/LoadingSpinner";
 
 import emailjs from "@emailjs/browser";
@@ -59,25 +59,28 @@ const Contact = () => {
                 className={classes.c_icon}
                 style={{ filter: !darkMode && "none" }}
               />
-              +359 886 336 229
+
+              <a href="tel:+359886336229">+359 886 336 229</a>
             </div>
             <div className={classes.c_info_item}>
               <img
                 src={email}
-                alt="phone icon"
+                alt="email icon"
                 className={classes.c_icon}
                 style={{ filter: !darkMode && "none" }}
               />
-              g.malchev@live.com
+
+              <a href="email:g.malchev@live.com">g.malchev@live.com</a>
             </div>
+
             <div className={classes.c_info_item}>
               <img
-                src={address}
-                alt="phone icon"
+                src={github}
+                alt="github icon"
                 className={classes.c_icon}
                 style={{ filter: !darkMode && "none" }}
               />
-              Emanuil Manolov 14, 9000, Varna, Bulgaria
+              <a href="https://github.com/Zulaxy">https://github.com/Zulaxy</a>
             </div>
           </div>
         </div>
