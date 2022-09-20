@@ -50,7 +50,9 @@ const Contact = () => {
       <div className={classes.c_bg}></div>
       <div className={classes.c_wrapper}>
         <div className={classes.c_left}>
-          <h1 className={classes.c_title}>Let's discuss your project</h1>
+          <h1 className={classes.c_title}>
+            Feel free to get in touch with me.
+          </h1>
           <div className={classes.c_info}>
             <div className={classes.c_info_item}>
               <img
@@ -86,16 +88,12 @@ const Contact = () => {
         </div>
         <div className={classes.c_right}>
           <p className={classes.c_desc}>
-            <b>What is your Story?</b> Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Curabitur rutrum, elit ut accumsan consequat, dui
-            justo tincidunt sapien, eu iaculis leo mauris vel neque. Curabitur
-            sit amet diam id ex cursus vestibulum ut a purus. Aliquam nec
-            blandit ligula, ut euismod tellus. Aenean laoreet porta dignissim.
-            Morbi molestie justo in felis volutpat auctor. Fusce accumsan metus
-            at nisi bibendum, a sollicitudin augue condimentum.
+            <b>Want to get in touch?</b> Use the form below to send your
+            questions and I will get back to you.
           </p>
           <form ref={formRef} onSubmit={submitHandler}>
             <input
+              required
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
@@ -105,6 +103,7 @@ const Contact = () => {
               name="user_name"
             ></input>
             <input
+              required
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
@@ -114,6 +113,7 @@ const Contact = () => {
               name="user_subject"
             ></input>
             <input
+              required
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
@@ -123,6 +123,7 @@ const Contact = () => {
               name="user_email"
             ></input>
             <textarea
+              required
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",

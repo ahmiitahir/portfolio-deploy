@@ -6,12 +6,9 @@ const ProductList = () => {
   return (
     <div className={classes.pl}>
       <div className={classes.pl_texts}>
-        <h1 className={classes.pl_title}>Please feel free to review my Portfolio</h1>
+        <h1 className={classes.pl_title}>Feel free to check some of the projects I've worked on.</h1>
         <p className={classes.pl_desc}>
-          This is my portfolio where we do all projects that i have covered
-          during my journey to become a web developer. This is my portfolio
-          where we do all projects that i have covered during my journey to
-          become a web developer
+          I've used mostly React, APIs, MUI, Responsive Design. 
         </p>
       </div>
       <div className={classes.pl_list}>

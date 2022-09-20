@@ -20,8 +20,7 @@ const Introduction = () => {
             </div>
           </div>
           <p className={classes.intro_description}>
-            My unmatched perspicacity, coupled with my sheer indefatigability,
-            combine to make me a feared opponent in any realm of human endeavor.
+            I look forward to building future projects and continue learning and implementing new technologies and the best practices in the industry.  
           </p>
         </div>
         <svg
