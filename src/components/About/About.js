@@ -18,18 +18,19 @@ const About = () => {
         <p className={classes.a_sub}>
           I started my web development journey back in February 2022 as a hobby
           that grew to be a passion and since then I have been exploring the
-          technologies behind MERN and am currently focusing on React.
+          technologies behind MERN with a current focus on React.
         </p>
         <p className={classes.a_desc}>
           I have covered the main practices in React like Hooks, States,
           Debugging, Using Reducers and Context API, Sending HTTP requests,
-          Redux, Deployment, Authtentication (with Firebase), Next JS, a glimpse
-          of TypeScript and the best practices in the industry. I have also
-          covered all of the main principles of modern JS, CSS frameworks,
-          Flexbox, DOM, Express, Node JS, MongoDB, AJAX and NPM. While I must be
-          sincere to say that I have not mastered them all yet, I am looking
-          forward to further solidify and expand my knowledge within the MERN
-          stack. Started using Git and Github to manage all of my work.
+          Routing, Redux, Deployment, Authtentication (with Firebase), Next JS,
+          a glimpse of TypeScript and the best practices in the industry. I have
+          also covered all of the main principles of modern JS, CSS frameworks
+          (Bulma and Bootstrap), Flexbox, DOM, Express, Node JS, MongoDB, AJAX
+          and NPM. While I must be sincere to say that I have not mastered them
+          all yet, I am looking forward to further solidify and expand my
+          knowledge within the MERN stack. Started using Git and Github to
+          manage all of my work.
         </p>
         <div className={classes.a_award}>
           {/* <img src={Courses} alt="" className={classes.a_award_image}></img> */}
