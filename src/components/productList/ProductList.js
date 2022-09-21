@@ -6,7 +6,7 @@ const ProductList = () => {
   return (
     <div className={classes.pl}>
       <div className={classes.pl_texts}>
-        <h1 className={classes.pl_title}>Feel free to check some of the projects I've worked on.</h1>
+        <h1 className={classes.pl_title}>Check some of my projects.</h1>
         <p className={classes.pl_desc}>
           I've used mostly React, APIs, MUI, Responsive Design. 
         </p>

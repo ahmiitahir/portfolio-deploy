@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className={classes.a}>
       <div className={classes.a_left}>
-        <div className={classes.a_card_bg}></div>
+        <div className={classes.a_card_bg}/>
         <div className={classes.a_card}>
           <img
             src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

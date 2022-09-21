@@ -2,6 +2,7 @@ import calculator from "./images/calculator.png";
 import weatherApp from "./images/weather-app.png";
 import toursApp from "./images/tours-app.png";
 import muiDemo from "./images/mui-demo.png";
+import routerMUI from "./images/quotes-app.png";
 
 export const products = [
   {
@@ -30,7 +31,7 @@ export const products = [
   },
   {
     id: 5,
-    img: "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: routerMUI,
     link: "https://react-router-demo-qu1gxl20g-zulaxy.vercel.app/quotes",
     desc: "Router with MUI",
   },

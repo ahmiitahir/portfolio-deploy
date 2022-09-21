@@ -15,14 +15,16 @@
 
 .a_right {
   flex: 1;
-  
 }
 
 .a_card_bg {
+  top: 100px;
+  left: 140px;
+  background-color: #427940;
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
   position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: #333;
 }
 
 .a_card {
@@ -46,7 +48,7 @@
 }
 
 .a_title {
- font-weight: 400;
+  font-weight: 400;
 }
 
 .a_sub {
@@ -92,7 +94,8 @@
     height: 30vh;
   }
 
-  .a_card_bg, .a_award {
+  .a_card_bg,
+  .a_award {
     display: none;
   }
 
