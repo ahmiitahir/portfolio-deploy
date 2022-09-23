@@ -14,6 +14,7 @@
   align-items: center;
   position: sticky;
   z-index: 2;
+  padding-left: 2%;
 }
 
 .p_circle {
@@ -40,10 +41,39 @@
   transform: translateY(-100%);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .p {
+    width: 40%;
+    height: 25vh;
+  }
+
+  .p_circle {
+    width: 10px;
+    height: 10px;
+  }
+
+  .p_browser {
+    height: 30px;
+  }
+
+  .p_desc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .p {
     width: 40%;
     height: 20vh;
+  }
+
+  .p_circle {
+    width: 8px;
+    height: 8px;
+  }
+
+  .p_browser {
+    height: 20px;
   }
 
   .p_desc {

@@ -128,7 +128,7 @@ const Contact = () => {
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
               }}
-              rows="5"
+              rows="8"
               placeholder="Enter Your Message"
               name="message"
             />

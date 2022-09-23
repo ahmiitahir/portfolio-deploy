@@ -7,7 +7,7 @@
 }
 
 .pl_texts {
-  width: 65%;
+  width: 80%;
 }
 
 .pl_title {
@@ -23,7 +23,22 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .pl {
+    padding: 10px;
+  }
+
+  .pl_title {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .pl_texts {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -31,17 +46,12 @@
     padding: 10px;
   }
 
-  .pl_texts {
+  .pl_title {
     width: 100%;
+    font-size: 30px;
   }
 
   .pl_desc {
     display: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .pl {
-    padding-top: 150px;
   }
 }
