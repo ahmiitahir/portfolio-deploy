@@ -92,6 +92,10 @@ button {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .c {
+    height: auto;
+  }
+
   .c_wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -110,6 +114,10 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+  .c {
+    height: auto;
+  }
+
   .c_wrapper {
     flex-direction: column;
     padding: 0px 50px;
