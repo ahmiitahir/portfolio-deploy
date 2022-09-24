@@ -1,7 +1,8 @@
 .a {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: auto;
+  margin: 100px 0;
 }
 
 .a_left {
@@ -15,10 +16,11 @@
 
 .a_right {
   flex: 1;
+  margin: 0 5%;
 }
 
 .a_card_bg {
-  top: 100px;
+  top: 50px;
   left: 140px;
   background-color: #427940;
   width: 60%;
@@ -67,6 +69,9 @@
 .a_award_title {
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
