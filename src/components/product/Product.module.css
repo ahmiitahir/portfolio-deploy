@@ -1,6 +1,6 @@
 .p {
   width: 30%;
-  height: 40vh;
+  max-height: 33vh;
   margin: 20px 10px;
   border: 2px solid rgb(55, 55, 55);
   border-radius: 10px 10px 0px 0px;
@@ -41,7 +41,23 @@
   transform: translateY(-100%);
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .p {
+    width: 25%;
+    max-height: 25vh;
+  }
+
+  .p_desc {
+    display: none;
+  }
+
+  .p_circle {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .p {
     width: 40%;
     height: 25vh;
