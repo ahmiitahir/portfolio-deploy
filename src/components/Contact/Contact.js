@@ -3,6 +3,7 @@ import { useRef, useState, useContext } from "react";
 import phoneIcon from "../../images/phone-call-icon.png";
 import email from "../../images/email.png";
 import github from "../../images/github.png";
+import linkedin from "../../images/linkedin.png";
 import LoadingSpinner from "../UI/LoadingSpinner";
 
 import emailjs from "@emailjs/browser";
@@ -83,6 +84,18 @@ const Contact = () => {
                 style={{ filter: !darkMode && "none" }}
               />
               <a href="https://github.com/Zulaxy">https://github.com/Zulaxy</a>
+            </div>
+
+            <div className={classes.c_info_item}>
+              <img
+                src={linkedin}
+                alt="linkedin icon"
+                className={classes.c_icon}
+                style={{ filter: !darkMode && "none" }}
+              />
+              <a href="https://www.linkedin.com/in/galin-malchev/">
+                https://www.linkedin.com/in/galin-malchev/
+              </a>
             </div>
           </div>
         </div>
