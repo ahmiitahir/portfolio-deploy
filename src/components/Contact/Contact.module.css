@@ -91,6 +91,22 @@ button {
   gap: 20px;
 }
 
+.c_info_item a {
+  font-weight: 500;
+}
+
+a:link {
+  color: #427940;
+}
+
+a:visited {
+  color: #427940;
+}
+
+a:hover {
+  color: rgb(40, 77, 122);
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .c {
     height: auto;
