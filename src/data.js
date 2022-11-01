@@ -1,7 +1,7 @@
 import calculator from "./images/calculator.png";
 import weatherApp from "./images/weather-app.png";
 import toursApp from "./images/tours-app.png";
-import muiDemo from "./images/mui-demo.png";
+import mernApp from "./images/MERN-app.jpg";
 import routerMUI from "./images/quotes-app.png";
 import authDemo from "./images/simple-firebase-auth-demo.png";
 
@@ -26,15 +26,15 @@ export const products = [
   },
   {
     id: 4,
-    img: muiDemo,
-    link: "https://mui-demo-app.vercel.app/",
-    desc: "MUI Demo App",
+    img: mernApp,
+    link: "https://mern-course-galio.herokuapp.com/",
+    desc: "Full MERN App",
   },
   {
     id: 5,
     img: routerMUI,
     link: "https://react-router-demo-qu1gxl20g-zulaxy.vercel.app/quotes",
-    desc: "Router with MUI",
+    desc: "Router - MUI - Lazy Load",
   },
   {
     id: 6,
