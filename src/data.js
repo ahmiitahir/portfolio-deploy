@@ -1,4 +1,4 @@
-import calculator from "./images/calculator.png";
+import twitter from "./images/twitter.png";
 import weatherApp from "./images/weather-app.png";
 import toursApp from "./images/tours-app.png";
 import mernApp from "./images/MERN-app.jpg";
@@ -8,9 +8,9 @@ import authDemo from "./images/simple-firebase-auth-demo.png";
 export const products = [
   {
     id: 1,
-    img: calculator,
-    link: "https://react-calculator-alpha-khaki.vercel.app/",
-    desc: "React Calculator",
+    img: twitter,
+    link: "https://twitter-clone-thing.vercel.app/",
+    desc: "Twitter Clone Thing",
   },
   {
     id: 2,
