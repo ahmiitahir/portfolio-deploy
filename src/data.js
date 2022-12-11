@@ -4,6 +4,7 @@ import toursApp from "./images/tours-app.png";
 import mernApp from "./images/MERN-app.jpg";
 import routerMUI from "./images/quotes-app.png";
 import authDemo from "./images/simple-firebase-auth-demo.png";
+import airBnb from "./images/airbnb.jpg";
 
 export const products = [
   {
@@ -26,9 +27,9 @@ export const products = [
   },
   {
     id: 4,
-    img: mernApp,
-    link: "https://mern-course-galio.herokuapp.com/",
-    desc: "Full MERN App",
+    img: airBnb,
+    link: "https://airbnb-clone-thingy-demo.vercel.app/",
+    desc: "Airbnb Clone Demo",
   },
   {
     id: 5,
