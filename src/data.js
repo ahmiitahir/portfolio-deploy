@@ -21,9 +21,9 @@ export const products = [
   },
   {
     id: 3,
-    img: toursApp,
-    link: "https://tours-app-one.vercel.app/",
-    desc: "Tours App API",
+    img: mernApp,
+    link: "https://react-summary-core-2c1fb.web.app/",
+    desc: "Fullstack MERN APP",
   },
   {
     id: 4,
