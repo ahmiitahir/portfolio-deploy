@@ -5,6 +5,7 @@ import mernApp from "./images/MERN-app.jpg";
 import routerMUI from "./images/quotes-app.png";
 import authDemo from "./images/simple-firebase-auth-demo.png";
 import airBnb from "./images/airbnb.jpg";
+import huluImage from "./images/Hulu-demo-clone.png";
 
 export const products = [
   {
@@ -15,9 +16,9 @@ export const products = [
   },
   {
     id: 2,
-    img: weatherApp,
-    link: "https://simple-weather-app-with-6dlbwlbdw-zulaxy.vercel.app/",
-    desc: "Weather API",
+    img: huluImage,
+    link: "https://hulu-clone-demo.vercel.app/",
+    desc: "Hulu Demo Clone",
   },
   {
     id: 3,
