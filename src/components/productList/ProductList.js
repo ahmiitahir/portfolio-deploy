@@ -26,6 +26,11 @@ const ProductList = () => {
           );
         })}
       </div>
+      {/* <div className={classes.pl_desc}>
+        <a target="_blank" rel="noreferrer">
+          View More
+        </a>
+      </div> */}
     </div>
   );
 };

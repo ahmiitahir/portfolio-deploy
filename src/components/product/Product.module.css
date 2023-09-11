@@ -28,8 +28,8 @@
 .sticky_paragraph {
   position: sticky;
   bottom: 0;
-  background-color: #fff;
-  padding: 10px;
+  background-color: #427940;
+  padding: 4px;
   z-index: 2;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
 }
