@@ -8,12 +8,22 @@ const ProductList = () => {
       <div className={classes.pl_texts}>
         <h1 className={classes.pl_title}>Check some of my projects.</h1>
         <p className={classes.pl_desc}>
-          I've used mostly React, APIs, MUI, Responsive Design. 
+          I've used mostly React, APIs, MUI, Responsive Design.
         </p>
       </div>
       <div className={classes.pl_list}>
         {products.map((item) => {
-          return <Product key={item.id} img={item.img} link={item.link} desc={item.desc}/>;
+          return (
+            <>
+              <Product
+                key={item.id}
+                img={item.img}
+                link={item.link}
+                desc={item.desc}
+                technologies={item.technologies}
+              />
+            </>
+          );
         })}
       </div>
     </div>
