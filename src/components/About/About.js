@@ -27,13 +27,10 @@ const About = () => {
           TypeScript and the best practices in the industry. I have also covered
           all of the main principles of modern JS, CSS frameworks (MUI,
           Tailwind, styled components, Bootstrap), Flexbox, DOM, Express, Node
-          JS, MongoDB, AJAX and NPM. While I must be sincere to say that I have
-          not mastered them all yet, I am looking forward to further solidify
-          and expand my knowledge within the MERN stack. Started using Git and
-          Github to manage all of my work.
+          JS, MongoDB, AJAX and NPM. I am looking forward to further solidify
+          and expand my knowledge within the MERN stack.
         </p>
         <div className={classes.a_award}>
-          {/* <img src={Courses} alt="" className={classes.a_award_image}></img> */}
           <div className={classes.a_award_texts}>
             <h4 className={classes.a_award_title}>
               I started my learning process by following the below sources and
@@ -71,6 +68,9 @@ const About = () => {
             </ul>
           </div>
         </div>
+        <p className={classes.a_desc}>
+          I am currently working as a Frontend Developer at Nex Gen LLC.
+        </p>
       </div>
     </div>
   );
