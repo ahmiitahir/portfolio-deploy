@@ -10,17 +10,16 @@ const Introduction = () => {
           <h1 className={classes.intro_name}>Galin Malchev</h1>
           <div className={classes.title_title}>
             <div className={classes.title_wrapper}>
-              <div className={classes.title_item}>Web Developer Wanna-be</div>
-              <div className={classes.title_item}>
-              Local SEO Expert
-              </div>
+              <div className={classes.title_item}>Web Developer</div>
+              <div className={classes.title_item}>Local SEO Expert</div>
               <div className={classes.title_item}>Marketing Enthusiast</div>
               <div className={classes.title_item}>Technology Geek</div>
-              <div className={classes.title_item}>Jack of All Trades</div>
             </div>
           </div>
           <p className={classes.intro_description}>
-            I look forward to building future projects and continue learning and implementing new technologies and the best practices in the industry.  
+            I look forward to building future projects and continue learning and
+            implementing new technologies and the best practices in the
+            industry.
           </p>
         </div>
         <svg
