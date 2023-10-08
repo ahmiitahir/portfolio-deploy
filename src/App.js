@@ -1,9 +1,10 @@
 import "./App.css";
-import Introduction from "./components/introduction/Introduction";
-import About from "./components/About/About";
-import ProductList from "./components/productList/ProductList";
-import Contact from "./components/Contact/Contact";
-import Toggle from "./components/toggle/Toggle";
+import Home from "./components/Home/Home";
+
+import AllProjects from "./components/AllProjects/AllProjects";
+
+import { Routes, Route } from "react-router-dom";
+
 import { useContext } from "react";
 import { ThemeContext } from "./store/mode-context";
 
@@ -18,11 +19,10 @@ function App() {
         color: darkMode && "#E8F0ED",
       }}
     >
-      <Toggle />
-      <Introduction />
-      <About />
-      <ProductList />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="all-projects" element={<AllProjects />} />
+      </Routes>
     </div>
   );
 }

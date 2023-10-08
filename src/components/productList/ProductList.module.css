@@ -41,6 +41,11 @@
   }
 }
 
+.linkWithoutUnderline {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
